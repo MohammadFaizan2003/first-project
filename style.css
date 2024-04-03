@@ -1,0 +1,1192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* navbar-section css start..................... */
+#navbar {
+    background-color: #2C2B2C;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.nav-text {
+    display: flex;
+    margin: auto;
+}
+
+.nav-text li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+
+.nav-btn {
+    padding: 0px 15px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin: auto 100px;
+    color: white;
+    background-color: transparent;
+}
+
+.nav-img {
+    padding: 10px;
+    height: 43px;
+    margin: auto 100px;
+}
+
+#slider {
+    width: 100%;
+}
+
+#slider img {
+    width: 100%;
+}
+
+/* navbar-section css end..................... */
+
+/* navbar-section media query start.........---900px----............ */
+@media only screen and (max-width: 900px) {
+
+    #navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-img {
+        padding-bottom: 0px;
+        margin: auto;
+    }
+
+    .nav-text {
+        margin-bottom: 10px;
+    }
+
+    .nav-text li {
+        margin: auto;
+    }
+
+}
+
+/* navbar-section media query end..................... */
+
+/* navbar-section media query start.........---480px----............ */
+@media only screen and (max-width: 480px) {
+
+    #navbar .nav-text {
+        display: block;
+        font-size: 12px;
+    }
+
+    .nav-btn {
+        font-size: 12px;
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+/* navbar-section media query end..................... */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
+
+/* our-mission-section css start..................... */
+#our-mission h1 {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img-1 {
+    height: 564px;
+}
+
+.img-2 {
+    height: 420px;
+}
+
+.div-1 {
+    height: 564px;
+    width: 544px;
+}
+
+.div-2 {
+    height: 420px;
+    width: 344px;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.mission-div {
+    display: flex;
+    padding: 50px 150px 100px 150px;
+}
+
+.mission-para p {
+    font-size: 28px;
+    padding: 130px 20px 0px 100px;
+}
+
+.mission-para p b {
+    text-decoration: none;
+    background: -webkit-linear-gradient(90deg, rgba(7, 6, 43, 1) 0%, rgba(190, 37, 172, 1) 0%, rgba(68, 35, 140, 1) 100%, rgba(32, 76, 117, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* our-mission-section css end..................... */
+
+/* our-mission-section media query start.........---1280px----............ */
+@media only screen and (max-width: 1280px) {
+
+    #our-mission h1 {
+        padding-top: 5px;
+    }
+
+    .img-1 {
+        height: 90%;
+    }
+
+    .img-2 {
+        height: 300px;
+    }
+
+    .div-1 {
+        height: auto;
+        width: auto;
+    }
+
+    .div-2 {
+        height: auto;
+        width: auto;
+    }
+
+    .mission-div {
+        width: 100%;
+        padding: 10px;
+        height: 500px;
+        box-sizing: border-box;
+    }
+
+    .mission-para {
+        padding: 10px;
+        height: auto;
+    }
+
+    .mission-para p {
+        padding: 80px 20px;
+    }
+}
+
+/* our-mission-section media query end.........---1280px----............ */
+
+/* our-mission-section media query start.........---900px----............ */
+@media only screen and (max-width: 900px) {
+
+    .img-1 {
+        height: 300px;
+    }
+
+    .img-2 {
+        height: 200px;
+    }
+
+    .div-2 {
+        margin-top: -200px;
+    }
+
+    .mission-div {
+        display: block;
+        height: auto;
+    }
+
+    .mission-para p {
+        font-size: 23px;
+        padding: 10px 10px;
+    }
+
+}
+
+/* our-mission-section media query end.........---900px----............ */
+
+/* our-mission-section media query start.........---500px----............ */
+@media only screen and (max-width: 500px) {
+
+    #our-mission h1 {
+        font-size: 20px;
+    }
+
+    .mission-div {
+        height: auto;
+    }
+
+    .img-1 {
+        height: 200px;
+    }
+
+    .img-2 {
+        height: 150px;
+    }
+
+    .div-2 {
+        margin-top: -150px;
+    }
+
+    .mission-para p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+}
+
+/* our-mission-section media query end.........---500px----............ */
+
+/* our-mission-section media query start.........---220px----............ */
+@media only screen and (max-width: 220px) {
+
+    .img-1 {
+        height: 150px;
+    }
+
+    .img-2 {
+        height: 100px;
+    }
+
+    .div-2 {
+        margin-top: -100px;
+    }
+
+    .mission-para p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+}
+
+/* our-mission-section media query end.........---220px----............ */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
+
+/* our-company section css start........................ */
+#our-company {
+    width: 100%;
+    text-align: center;
+}
+
+.company-div {
+    width: 600px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.company-div h3 {
+    margin-top: 100px;
+    padding-bottom: 5px;
+    background: -webkit-linear-gradient(360deg, rgba(39, 75, 255, 1) 33%, rgba(163, 19, 218, 1) 49%, rgba(255, 101, 35, 1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.company-div h1 {
+    margin-top: 10px;
+}
+
+.our-c-div {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.our-c-div-1 {
+    padding: 30px 0px 100px 0px;
+    width: 200px;
+}
+
+/* our-company section css start........................ */
+
+/* our-company-section media query start.........---900px----............ */
+@media only screen and (max-width: 900px) {
+
+    #our-company {
+        width: 100%;
+    }
+
+    .company-div {
+        width: 100%;
+    }
+
+    .company-div h3 {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .company-div h1 {
+        width: 100%;
+    }
+
+    .our-c-div {
+        margin: auto;
+        justify-content: center;
+    }
+
+}
+
+/* our-company-section media query start.........---900px----............ */
+
+/* our-company-section media query start.........---500px----............ */
+@media only screen and (max-width: 500px) {
+
+    .company-div h3 {
+        font-size: 15px;
+    }
+
+    .company-div h1 {
+        font-size: 20px;
+    }
+
+    .our-c-div {
+        display: block;
+    }
+
+    .our-c-div-1 {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+}
+
+/* our-company-section media query start.........---50px----............ */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
+
+/* our-product section css start........................ */
+#our-product {
+    width: 100%;
+}
+
+#our-product-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#our-product-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.our-p-img {
+    width: 500px;
+    height: 350px;
+    margin: 0px 30px;
+}
+
+.our-p-img img {
+    height: 350px;
+    width: 500px;
+}
+
+.our-p-img-1 {
+    background: rgb(34, 2, 40);
+    background: linear-gradient(90deg, rgba(34, 2, 40, 1) 48%, rgba(3, 7, 45, 1) 81%);
+}
+
+.our-p-img-2 {
+    background: rgb(139, 66, 128);
+    background: linear-gradient(90deg, rgba(139, 66, 128, 1) 0%, rgba(142, 105, 63, 1) 99%);
+}
+
+/* our-product section css end........................ */
+
+/* our-company-section media query start.........---1200px----............ */
+@media only screen and (max-width: 1200px) {
+
+    #our-product {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #our-product-1 {
+        width: auto;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    #our-product-2 {
+        width: auto;
+        box-sizing: border-box;
+        padding: 10px 0px;
+    }
+
+    .our-p-img {
+        width: 100%;
+        height: 200px;
+        margin: 0px 15px 0px 0px;
+    }
+
+    #our-product-2 .our-p-img {
+        width: 100%;
+        height: 200px;
+        margin: 0px 10px 0px -10px;
+    }
+
+    .our-p-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+/* our-company-section media query start.........---1200px----............ */
+
+/* our-company-section media query start.........---900px----............ */
+@media only screen and (max-width: 900px) {
+
+    #our-product {
+        display: block;
+    }
+
+    #our-product-2 .our-p-img {
+        width: 40%;
+        height: 150px;
+    }
+
+    #our-product-1 .our-p-img {
+        width: 40%;
+        height: 150px;
+    }
+
+}
+
+/* our-company-section media query start.........---900px----............ */
+
+/* our-company-section media query start.........---500px----............ */
+@media only screen and (max-width: 500px) {
+
+    #our-product-1 .our-p-img {
+        margin: auto;
+    }
+
+    #our-product-1 {
+        display: block;
+    }
+
+    #our-product-1 .our-p-img {
+        margin-bottom: 10px;
+        width: 60%;
+    }
+
+    #our-product-2 .our-p-img {
+        width: 60%;
+    }
+
+    #our-product-2 {
+        padding-top: 0px;
+        margin-top: -7px;
+        margin-left: 20px;
+    }
+}
+
+/* our-company-section media query start.........---500px----............ */
+
+/* our-company-section media query start.........---300px----............ */
+@media only screen and (max-width: 300px) {
+
+    #our-product-1 .our-p-img {
+        width: 97%;
+    }
+
+    #our-product-2 .our-p-img {
+        width: 97%;
+        margin-left: -10px;
+    }
+}
+
+/* our-company-section media query start.........---300px----............ */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
+
+/* our-card section css start........................ */
+#our-card-section {
+    width: 100%;
+}
+
+#card-section {
+    width: 80%;
+    margin: 100px auto;
+}
+
+#card-section h1 {
+    margin-bottom: 20px;
+}
+
+.card-flex-s {
+    display: flex;
+}
+
+.card-1 {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+    background: rgb(10, 0, 9);
+    background: linear-gradient(180deg, rgb(70, 3, 63) 11%, rgb(190, 56, 155) 59%, rgba(84, 116, 173, 1) 99%);
+}
+
+.card-1-img {
+    height: 130px;
+    width: 130px;
+    margin: 0px auto 10px auto;
+    border-radius: 100px;
+}
+
+.card-1-img img {
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+}
+
+.card-1-p {
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    color: white;
+}
+
+.card-1-num {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    line-height: 30px;
+    margin: 10px 0px 0px 10px;
+    background-color: #3a3a39;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+}
+
+/* our-card section css end........................ */
+
+/* our-card-section media query start.........---1200px----............ */
+@media only screen and (max-width: 1200px) {
+
+    #our-card-section {
+        width: 100%;
+    }
+
+    #card-section {
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #card-section h1 {
+        margin: 5px;
+    }
+
+    .card-flex-s {
+        width: 100%;
+    }
+
+    .card-1 {
+        width: 25%;
+        height: auto;
+    }
+
+    .card-1-p {
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+}
+
+/* our-card-section media query start.........---1200px----............ */
+
+/* our-company-section media query start.........---680px----............ */
+@media only screen and (max-width: 680px) {
+
+    #card-section h1 {
+        font-size: 24px;
+    }
+
+    .card-flex-s {
+        display: block;
+    }
+
+    .card-1 {
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+/* our-company-section media query start.........---680px----............ */
+
+/* our-company-section media query start.........---480px----............ */
+@media only screen and (max-width: 480px) {
+
+    .card-1 {
+        display: block;
+        width: 90%;
+        margin: 10px auto 0px auto;
+    }
+}
+
+/* our-company-section media query start.........---480px----............ */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
+
+/* our-card section css start........................ */
+#top-experties {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.top-experties-div {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.top-experties-div h3 {
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(360deg, rgba(39, 75, 255, 1) 33%, rgba(163, 19, 218, 1) 49%, rgba(255, 101, 35, 1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-e-div {
+    height: 200px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.top-e-div-img {
+    height: 200px;
+    width: 100%;
+}
+
+.top-e-div-flex {
+    margin: auto;
+    width: 70%;
+    display: flex;
+}
+
+.top-e-div-flex-img {
+    height: 60px;
+    width: 25%;
+    margin: 5px;
+}
+
+.top-e-div-flex-img img {
+    height: 50px;
+    justify-content: center;
+    margin: 5px;
+}
+
+/* our-card section css end........................ */
+
+/* our-card-section media query start.........---1200px----............ */
+@media only screen and (max-width: 1200px) {
+
+    #top-experties {
+        width: 100%;
+        margin-top: -100px;
+        padding-top: 20px;
+    }
+
+    .top-experties-div {
+        width: 100%;
+    }
+
+    .top-experties-div h3 {
+        width: 100%;
+    }
+
+    .top-e-div {
+        width: 100%;
+    }
+
+    .top-e-div-img {
+        width: 100%;
+    }
+
+    .top-e-div-flex {
+        width: 100%;
+        display: block;
+    }
+
+    .top-e-div-flex-img {
+        width: 100%;
+        display: inline;
+    }
+
+}
+
+/* our-card-section media query start.........---1200px----............ */
+
+/* our-company-section media query start.........---480px----............ */
+@media only screen and (max-width: 480px) {
+
+    .top-e-div-flex-img img {
+        height: 35px;
+    }
+
+    .top-e-div-img {
+        height: 150px;
+    }
+
+    .top-e-div {
+        height: 150px;
+        margin-top: 0px;
+    }
+
+    .top-experties-div h3 {
+        font-size: 16px;
+    }
+
+    .top-experties-div h1 {
+        font-size: 24px;
+    }
+}
+
+/* our-company-section media query start.........---480px----............ */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
+
+/* contact-us section css start........................ */
+#contact-us {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#contact-us h3 {
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(360deg, rgba(39, 75, 255, 1) 33%, rgba(163, 19, 218, 1) 49%, rgba(255, 101, 35, 1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-us-div {
+    width: 64%;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.contact-us-img {
+    height: 300px;
+    width: 480px;
+    border-radius: 10px;
+}
+
+.contact-us-img-2 {
+    height: 300px;
+    width: 480px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.rec-1 {
+    height: 300px;
+    position: absolute;
+    margin-left: -215px;
+}
+
+.rec-2 {
+    height: 300px;
+    position: absolute;
+    margin-left: -35px;
+}
+
+.contact-us-img-2 input {
+    width: 60%;
+    margin: 5px;
+    padding: 10px 0px 10px 30px;
+    font-weight: bolder;
+    border-top: 1px solid #D23CA7;
+    border-bottom: 1px solid #D23CA7;
+    border-right: 1px solid #D23CA7;
+    border-left: 1px solid transparent;
+}
+
+.contact-us-img-2 .submit {
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid #D23CA7;
+    background-color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.contact-us-img-2 form .icon {
+    color: #D23CA7;
+    border-top: 1px solid #D23CA7;
+    border-bottom: 1px solid #D23CA7;
+    border-left: 1px solid #D23CA7;
+    padding: 9.5px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.contact-us-img-2 .subject {
+    width: 64%;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 0px;
+    font-weight: bolder;
+    border: 1px solid #D23CA7;
+}
+
+/* contact-us section css end........................ */
+
+/* contact-us-section media query start.........---1200px----............ */
+@media only screen and (max-width: 1200px) {
+
+    #contact-us {
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .contact-us-div {
+        width: 90%;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .contact-us-img {
+        overflow: hidden;
+        width: 50%;
+        height: 50%;
+    }
+
+    .contact-us-img-2 {
+        width: 50%;
+        height: 50%;
+        padding: 0px 10px;
+    }
+
+    .rec-1 {
+        height: 250px;
+        margin-left: -180px;
+    }
+
+    .rec-2 {
+        height: 250px;
+    }
+
+    .contact-us-img-2 input {
+        width: 90%;
+    }
+
+    .contact-us-img-2 .subject {
+        width: 93%;
+    }
+
+}
+
+/* contact-us-section media query start.........---1200px----............ */
+
+/* contact-us-section media query start.........---800px----............ */
+@media only screen and (max-width: 800px) {
+
+    .contact-us-div {
+        display: block;
+    }
+
+    .contact-us-img {
+        margin: auto;
+    }
+
+    .contact-us-img-2 {
+        margin-top: 260px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* contact-us-section media query start.........---800px----............ */
+
+/* contact-us-section media query start.........---400px----............ */
+@media only screen and (max-width: 400px) {
+
+    #contact-us h3 {
+        font-size: 15px;
+    }
+
+    #contact-us h1 {
+        font-size: 24px;
+    }
+
+    .contact-us-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .contact-us-img-2 {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .rec-1 {
+        height: 100px;
+        margin-left: -75px;
+    }
+
+    .rec-2 {
+        height: 100px;
+        margin-left: -15px;
+    }
+
+    .contact-us-img-2 input {
+        width: 40%;
+        padding: 7px 30px;
+        font-size: 10px;
+    }
+
+    .contact-us-img-2 .submit {
+        width: 50%;
+        height: 30px;
+        line-height: 5px;
+    }
+
+    .contact-us-img-2 form .icon {
+        padding: 7.5px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .contact-us-img-2 .subject {
+        width: 40%;
+        padding: 7px 30px;
+    }
+}
+
+/* contact-us-section media query start.........---400px----............ */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
+
+/* footer section css start........................ */
+#footer {
+    width: 100%;
+    background-color: #1f1e1f;
+    color: white;
+}
+
+.footer-div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-div-1 {
+    height: 300px;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-div-1 img {
+    height: 25%;
+}
+
+.footer-div-2 {
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    padding: 60px 0px;
+    box-sizing: border-box;
+}
+
+.footer-div-2 h3 {
+    padding-left: 20px;
+}
+
+.footer-div-2 img {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -2px;
+}
+
+.footer-div-2 p {
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.footer-div-3 {
+    height: 300px;
+    width: 30%;
+    padding: 60px 0px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.footer-div-3 p {
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.footer-div-4 {
+    height: 300px;
+    width: 30%;
+    padding: 100px 0px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.footer-div-4 p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer-div-4 input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 50px;
+    border: 0px;
+}
+
+.footer-div-4 .send {
+    padding: 10px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #D23CA7;
+    border: 0px;
+    position: absolute;
+    margin-left: -80px;
+    color: white;
+}
+/* footer section css end........................ */
+
+/* footer section media query start.........---1200px----............ */
+@media only screen and (max-width: 1200px) {
+
+    #footer {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer-div {
+        width: 100%;
+    }
+
+}
+/* footer section media query start.........---1200px----............ */
+
+/* footer section media query start.........---980px----............ */
+@media only screen and (max-width: 980px) {
+
+    #footer h3 {
+        font-size: 14px;
+    }
+
+    #footer p {
+        font-size: 10px;
+    }
+}
+/* footer section media query start.........---980px----............ */
+
+/* footer section media query start.........---804px----............ */
+@media only screen and (max-width: 804px) {
+
+    .footer-div .footer-div-1 {
+        width: 25%;
+        padding: auto 0px;
+    }
+
+    .footer-div .footer-div-2 {
+        width: 25%;
+        padding: auto 0px;
+    }
+
+    .footer-div .footer-div-3 {
+        text-align: center;
+        width: 25%;
+        padding-left: 0px;
+        padding-top: 80px;
+    }
+
+    .footer-div-3 p {
+        margin: 0px;
+    }
+
+    .footer-div .footer-div-4 {
+        width: 25%;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+}
+/* footer section media query start.........---804px----............ */
+
+/* footer section media query start.........---680px----............ */
+@media only screen and (max-width: 680px) {
+
+    .footer-div {
+        display: block;
+    }
+
+    .footer-div p {
+        padding: 10px 0px;
+    }
+
+    .footer-div .footer-div-1 {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        height: auto;
+    }
+
+    .footer-div .footer-div-2 {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        padding-top: 20px;
+        height: auto;
+        border-bottom: 1px solid white;
+    }
+
+    .footer-div .footer-div-3 {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        padding-top: 20px;
+        height: auto;
+        border-bottom: 1px solid white;
+    }
+
+    .footer-div .footer-div-4 {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        padding-top: 20px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+}
+/* footer section media query start.........---680px----............ */
+
+/* -------------------------------------------------xxx-xxx------------------------------------------------- */
